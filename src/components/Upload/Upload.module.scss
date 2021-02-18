@@ -1,0 +1,18 @@
+.container{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.buttonLabel{
+  border: #d0d0d0 1px solid;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: white;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  &:hover{
+    background-color: darken(white, 4%);
+  }
+}

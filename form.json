@@ -1,0 +1,80 @@
+{
+  "id": "my-new-form",
+  "title": "Анкета",
+  "elements": [
+    {
+      "id": "name",
+      "type": "input",
+      "label": "Имя",
+      "placeholder": "Имя",
+      "isRequired": true
+    },
+    {
+      "id": "age",
+      "type": "number",
+      "label": "Возраст",
+      "placeholder": "18",
+      "isRequired": true,
+      "minValue": 1,
+      "maxValue": 150
+    },
+    {
+      "id": "familyStatus",
+      "type": "select",
+      "options": [
+        {
+          "value": "notMarried",
+          "name": "Не женат / не замужем"
+        },
+        {
+          "value": "married",
+          "name": "Женат / Замужем"
+        }
+      ],
+      "label": "Семейное положение",
+      "isRequired": true
+    },
+    {
+      "id": "university",
+      "type": "input",
+      "label": "ВУЗ",
+      "placeholder": "Например, ВоолгГАСУ",
+      "isRequired": false
+    },
+    {
+      "id": "bornLocation",
+      "type": "select",
+      "label": "Место рождения",
+      "options": [
+        {
+          "value": "spb",
+          "name": "Санкт-Петербург"
+        },
+        {
+          "value": "msk",
+          "name": "Москва"
+        }
+      ],
+      "isRequired": true
+    },
+    {
+      "id": "skills",
+      "type": "checkboxGroup",
+      "label": "Навыки",
+      "elements": [
+        {
+          "value": "communications",
+          "name": "Общение"
+        },
+        {
+          "value": "boxing",
+          "name": "Бокс"
+        },
+        {
+          "value": "driving",
+          "name": "Вождение"
+        }
+      ]
+    }
+  ]
+}

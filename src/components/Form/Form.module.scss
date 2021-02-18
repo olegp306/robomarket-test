@@ -1,0 +1,47 @@
+.title {
+  color: #393939;
+  font-weight: normal;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 1rem;
+  text-align: left;
+  flex-direction: column;
+}
+
+.rowInputBlock{
+  display: flex;
+  align-items: center;
+}
+
+.isRequired{
+  color: #ff3b4a;
+}
+
+.inputLabel{
+  display: block;
+  width: 8rem;
+}
+
+.checkBoxGroupLabel{
+  align-self: flex-start;
+}
+
+.error {
+  margin-top: 0.25rem;
+  color: #ff3b4a;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.send{
+  margin-left: 8rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: #f5cd00;
+  border: none;
+  border-bottom: 2px solid #c8b616;
+  border-radius: 0.25rem;
+  font-weight: 500;
+}
